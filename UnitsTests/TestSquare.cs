@@ -5,7 +5,7 @@ using Vsite.Oom.Battleship.Model;
 namespace Vsite.Oom.Battleship.UnitsTests
 {
     [TestClass]
-    public class UnitTest1
+    public class TestSquare
     {
         [TestMethod]
         public void ConstructorCreatesSquareWithCoordinatesProvided()
