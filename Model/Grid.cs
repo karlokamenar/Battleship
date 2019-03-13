@@ -32,7 +32,7 @@ namespace Vsite.Oom.Battleship.Model
             return list;
         }
 
-        public void EliminateSquares(IEnumerable<IEnumerable<Square>> squares)
+        public void EliminateSquares(List<Square> squares)
         {
             throw new NotImplementedException();
         }
