@@ -15,5 +15,6 @@ namespace Vsite.Oom.Battleship.UnitTests
             Assert.AreEqual(2, s.Row);
             Assert.AreEqual(3, s.Column);
         }
+
     }
 }
