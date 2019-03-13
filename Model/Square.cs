@@ -13,6 +13,7 @@ namespace Vsite.Oom.Battleship.Model
             Row = row;
             Column = column;
         }
+
         public readonly int Row;
         public readonly int Column;
     }
