@@ -12,7 +12,7 @@ namespace UnitTest
         {
             Square s = new Square(2, 3);
             Assert.AreEqual(2, s.Row);
-            Assert.AreEqual(3, s.Row);
+            Assert.AreEqual(3, s.Column);
         }
     }
 }
