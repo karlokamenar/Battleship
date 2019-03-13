@@ -8,12 +8,12 @@ namespace Vsite.Oom.Battleship.Model
 {
     public class Square
     {
-        Square(int row, int column)
+        public Square(int row, int column)
         {
             Row = row;
             Column = column;
         }
-        readonly int Row;
-        readonly int Column;
+        public readonly int Row;
+        public readonly int Column;
     }
 }
