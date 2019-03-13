@@ -8,7 +8,7 @@ namespace Vsite.Oom.Battleship.UnitTests
     public class TestSquare
     {
         [TestMethod]
-        public void ConstructorCreatesSquareWitdCoordinatesProvided()
+        public void ConstructorCreatesSquareWithCoordinatesProvided()
         {
             Square s = new Square(2, 3);
             Assert.AreEqual(2, s.Row);
